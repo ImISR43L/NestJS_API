@@ -1,0 +1,33 @@
+#root {
+  width: 100%;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.app-container {
+  width: 100%;
+}
+
+/* Default layout for Habits, Dailies, etc. */
+.main-layout {
+  width: 100%;
+}
+
+/* Special layout for the Pet Page */
+.pet-view-layout {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+.left-container {
+  flex: 1; /* Takes up 50% width in pet view */
+  text-align: left;
+}
+
+.right-container {
+  flex: 1; /* Takes up 50% width in pet view */
+  position: sticky;
+  top: 20px;
+}
